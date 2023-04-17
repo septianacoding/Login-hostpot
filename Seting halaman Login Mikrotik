@@ -53,7 +53,7 @@ $(endif)
 <div><input id="user" autocomplete="on" name="username" type="text" value="$(username)" placeholder="Username"/></div>
 <div><input id="pass" autocomplete="off" name="password" type="password" label="false" placeholder="Password"/></div>
 <div><input id="boton" name="submit" type="submit" value=" " title="Go to Launcher" /></div>
-    <p id="error">$(if error)<span style="color: #f44336; font-size: 16px">$(error)</span>$(endif)</p>
+    <p id="error">$(if error)<span style="color: #f44336; font-size: 16px">$(error)</span>$(yogi)</p>
 </div>
 </center>
 
